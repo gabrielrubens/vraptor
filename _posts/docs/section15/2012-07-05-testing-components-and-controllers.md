@@ -51,6 +51,3 @@ public void testThatAValidationErrorOccurs() {
         //assertions on errors
     }
 }
-{% endhighlight %}
-
-If one uses Hibernate Validator, and calls validator.validate(object) on the controller, one can use the HibernateMockValidator class instead, which will validate the object with the defined rules from HV.

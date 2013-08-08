@@ -53,6 +53,3 @@ public void testaQueVaiDarErroDeValidacao() {
         //asserts nos erros
     }
 }
-{% endhighlight %}
-
-Se você usa o Hibernate Validator e tem a chamada validator.validate(objeto) no método do seu controller, você pode usar a classe HibernateMockValidator, que validará o objeto com as regras definidas pelo Hibernate Validator.
